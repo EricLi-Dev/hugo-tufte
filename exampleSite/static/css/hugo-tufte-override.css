@@ -1,8 +1,17 @@
-/* Nothing here yet, (This file is waiting your customizations) */
+/* Override and customize tufte styling here */
+
 .author, .date {
-  color: #FF0000;
+  color: #d32f2f;
 }
 
+/* removes italics on h2 */
+h2 {
+    font-style: normal;
+}
+
+/* === SHORTCODES === */
+
+/* >>>>>SIDENOTE<<<<< */
 .sidenote-number {
     vertical-align: super;
 }
@@ -18,5 +27,6 @@ span.marginnote-ind,
 span.sidenote-number {
     font-size: 0.8rem;
 }
+/* <<<<<SIDENOTE<<<<< */
 
 
