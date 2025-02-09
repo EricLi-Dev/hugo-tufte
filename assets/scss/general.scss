@@ -66,7 +66,8 @@ mark {
 .list-page {
     ul {
         list-style-type: none;
-        margin: -0.25em;
+        margin: 0;
+        padding: 0;
         width: 87.5%;
         max-width: 45rem;
     }
@@ -76,7 +77,7 @@ mark {
     }
 }
 .list-page .list-date {
-    display: inline;
+    display: block;
     font-size: 0.75em;
     /* padding-right: 2em; */
     /* margin-right: 2em; */
