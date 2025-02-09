@@ -2,11 +2,11 @@
 title: "{{ replace .Name "-" " " | title }}"
 subtitle: Fancy Subtitle
 author: Totally famous person
-date: "{{ .Date }}"
+date: "{{ .Date | time.Format ":date_medium"}}"
 meta: true
 math: false
 toc: false
-hideDate: false
+hideDate: true
 hideReadTime: false
 categories: []
 draft: true
