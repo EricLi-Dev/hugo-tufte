@@ -1,1 +1,22 @@
 /* Nothing here yet, (This file is waiting your customizations) */
+.author, .date {
+  color: #FF0000;
+}
+
+.sidenote-number {
+    vertical-align: super;
+}
+
+/* note indicator */
+label.marginnote-ind,
+label.sidenote-number {
+    font-size: 0.8rem;
+}
+
+/* inside sidenote */
+span.marginnote-ind,
+span.sidenote-number {
+    font-size: 0.8rem;
+}
+
+

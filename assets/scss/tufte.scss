@@ -290,14 +290,14 @@ img {
 .sidenote-number {
     // font-family: et-book-roman-old-style, "Noto Emoji";
     position: relative;
-    vertical-align: super;
+    vertical-align: baseline;
     user-select: none;
 }
 
 // note indicator
 label.marginnote-ind,
 label.sidenote-number {
-    font-size: 0.8rem;
+    font-size: 1rem;
     top: -0.5rem;
     left: 0.1rem;
 }
@@ -305,7 +305,7 @@ label.sidenote-number {
 // inside sidenote
 span.marginnote-ind,
 span.sidenote-number {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 }
 
 p,
