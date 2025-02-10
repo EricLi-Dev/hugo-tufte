@@ -7,22 +7,17 @@
 {{ partial "content.header.html" . }}
 
 <section class="list-page">
-{{ range .Data.Pages.GroupByDate "2006" }}
-  <ul>
-    {{ range .Pages.GroupByDate "January" }}
+    {{ range .Pages }}
     <ul>
-      {{ range .Pages }}
-          <li>
-              <a href="{{ .RelPermalink }}">{{.Title}}</a>
-              <br>
-              <span class="list-date">{{ .Date | time.Format ":date_medium"}}</span>
+        <a href="{{ .RelPermalink }}">
+            <div class="list-post">
+                {{.Title}}
+                <span class="list-date">{{ .Date | time.Format ":date_medium"}}</span>
                 <hr />
-          </li>
-      {{ end }}
+            </div>
+        </a>
     </ul>
     {{ end }}
-  </ul>
-  {{ end }}
 </section>
 
 </article>
