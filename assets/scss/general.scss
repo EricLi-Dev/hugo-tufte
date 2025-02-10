@@ -73,7 +73,7 @@ mark {
     }
     a {
         display: block;
-        font-weight: bold;
+        font-weight: 999;
         text-decoration: none;
         color: inherit;
         width: 30rem;
@@ -86,6 +86,7 @@ mark {
 
 .list-date {
   padding-top: 0.3rem;
+  font-weight: 1;
 }
 .list-page .list-date {
     display: block;
