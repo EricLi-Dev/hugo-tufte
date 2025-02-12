@@ -5,8 +5,8 @@
 */}}
 
 {{ define "main" }}
+{{ partial "nav.html" . }}
 <article id="main">
-    <section>{{ partial "nav.html" . }}</section>
   {{ partial "content.header.html" . }}
   {{ partial "toc.html" . }}
   <section>{{ .Content }}</section>
